@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&family=Mukta:wght@700&family=Poppins:wght@700&family=Roboto:wght@300;500&display=swap");
+body {
+  font-family: Mukta;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgba(127, 255, 212, 0.405); */
+}
+
+.main1 {
+  width: 90vw;
+  padding: 20px;
+  position: absolute;
+  left: 50px;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; */
+}
+
+.berk {
+  display: none;
+}
+
+.div {
+  width: 396px;
+  height: 70px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-family: Mukta;
+  font-size: 20px;
+  border: 2px solid rgb(217, 216, 216);
+  border-radius: 10px;
+  float: left;
+  margin: 20px;
+}
+
+.div:hover {
+  background-color: rgb(235, 231, 231);
+  border: 2px solid blue;
+}
+
+.p2 {
+  transform: rotate(-45deg);
+}
+
+.p1 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(217, 216, 216);
+  display: flex;
+  position: relative;
+  z-index: 0;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  transform: rotate(45deg);
+}
+
+.window {
+  overflow-y: scroll;
+  border-radius: 20px;
+  width: 80vw;
+  position: fixed;
+  left: 10vw;
+  padding: 20px;
+  text-align: center;
+  height: 94vh;
+  background-color: rgb(29, 202, 10);
+  margin: auto;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+.ayah {
+  color: rgb(74, 73, 73);
+}
+
+.exit {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  right: 9vw;
+  margin-top: 0;
+  border-radius: 50%;
+  background-color: white;
+}
+
+audio {
+  width: 40vw;
+}
+
+.header {
+  width: 98.9vw;
+  height: 60vh;
+  background-image: url("https://pngtree.com/freepng/the-holy-quran-with-tasbih_6503278.html");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerh1 {
+  font-size: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
